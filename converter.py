@@ -10,7 +10,8 @@ LIGHT_YEAR_KM = 9.46e12          # kilometers in one light-year (approx)
 AU_KM = 149_597_870.7            # kilometers in one AU
 
 #  Weight conversion 
-weight = float(input("Enter your Earth weight (kg): "))
+weight = float(input("Enter your Earth weight (kg): ")) 
+print("\n Weight Conversions")
 print(f"Your weight on Mars:   {weight * MARS:.1f} kg")
 print(f"Your weight on Moon:   {weight * MOON:.1f} kg")
 print(f"Your weight on Jupiter:{weight * JUPITER:.1f} kg")

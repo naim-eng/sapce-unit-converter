@@ -1,6 +1,6 @@
 # converter.py
 
-# --- Gravity ratios relative to Earth (almost)
+# Gravity ratios relative to Earth (almost)
 MARS = 0.38
 MOON = 0.165
 JUPITER = 2.64   # simple approximation for this project
@@ -20,6 +20,7 @@ print(f"Your weight on Jupiter:{weight * JUPITER:.1f} kg")
 ly = float(input("\nEnter distance in light years: "))
 print(f"{ly} light years = {ly * LIGHT_YEAR_KM:.2e} km")
 
-# --- AU to km ---
+#  AU to km 
 au = float(input("\nEnter distance in AU: "))
 print(f"{au} AU = {au * AU_KM:.2e} km")
+print("\nConversion complete. Thanks for using Space Unit Converter!") 
